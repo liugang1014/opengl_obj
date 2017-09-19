@@ -156,7 +156,7 @@ class MySurfaceView extends GLSurfaceView
             //加载要绘制的物体
             Log.e("fancl","Start loading");
             File file = new File("lovo");
-            lovo = LoadUtil.loadFromFile("iphone6.obj", MySurfaceView.this.getResources(),MySurfaceView.this);
+            lovo = LoadUtil.loadFromFile("ch_t.obj", MySurfaceView.this.getResources(),MySurfaceView.this);
             Log.e("fancl","Finish loading");
             //加载纹理
             textureId=initTexture(R.drawable.ghxp);
